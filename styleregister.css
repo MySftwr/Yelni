@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+width: 100%;
+height: ;
+    background: #0c0c0c;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+}
+p{
+width: 100%;
+display: flex;
+justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.content{
+   display: flex;
+   justify-content: center;
+    
+}
+.login{
+    width: 80%;
+    height: auto;
+    border: 1px solid #9f9f9f;
+    background: ;
+    border-radius: 10px ;
+    display: grid;
+   padding: 10px 10px 10px 10px; 
+   vertical-align: middle;
+text-align: center;
+margin-bottom: 20px;
+    
+}
+.login .div1{
+   margin-top: 30px;
+   
+}
+.login .div2{
+   margin-bottom: 50px; 
+}
+
+.login input{
+    margin-bottom: 30px;
+    outline: none;
+    width:100%;
+    background: #0c0c0c;
+    border: 1px solid #9f9f9f;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+   
+}
+.login input::placeholder{
+    color: white;
+}
+.login .div2 a{
+
+text-decoration: none;
+color: white;
+padding: 5px 40px 5px 40px;
+background: #0060e2;
+display: block;
+font-size: 20px;
+border-radius: 5px;
+font-weight: bold;
+    
+}
+.dige{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.diger{
+    width: 80%;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #9f9f9f;
+    border-radius: 10px;
+   text-align: center;
+    
+    
+    
+   
+}
+.diger p{
+    font-size: 15px;
+    left: 0;
+}
+.diger a{
+    text-decoration: none;
+    color: #0062e2;
+    font-size: 15px;
+}
+i{
+width: 100%;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    
+}

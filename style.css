@@ -1,0 +1,465 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #212121;
+    
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background:#0c0c0c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    z-index: 2;
+}
+.baslik{
+    text-decoration: none;
+}
+.navbar h3{
+    color: white;
+    font-size: 24px;
+}
+
+
+
+.navbar input::placeholder{
+    color: white;
+}
+.navbar .ulone{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    
+}
+.navbar .ulone li{
+    list-style-type: none;
+    
+  
+}
+.navbar .ulone li a{
+   color: white; 
+   text-decoration: none;
+   
+   transition: 0.5s all;
+   
+}
+.navbar .ultwo {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.navbar .ultwo li{
+  list-style-type: none;  
+}
+.navbar .ultwo li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s all;
+    
+}
+.navbar .ultwo li:nth-child(1) a{
+border: 2px solid white;
+padding: 5px 20px 5px 20px;   
+border-radius: 5px;
+}
+.navbar .li:nth-child(1) a{
+    
+}
+.navbar .ultwo li:nth-child(2) a{
+   border: 2px solid white; 
+   padding: 5px 20px 5px 20px;
+   border-radius: 5px;
+}
+.navbar .ulone li a:hover{
+  color: blue;  
+  
+}
+.navbar .ultwo li a:hover{
+color: blue;
+border-color: blue;
+    
+}
+#caret{
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px ;
+    transition: 0.4s all;
+    border-radius: 3px;
+}
+.other:hover{
+    background: #323232d0;
+}
+
+#bars{
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+.navbar label i{
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    transition: 0.4s all;
+    border-radius: 3px ;
+}
+.navbar label i:hover{
+ background:#323232d0 ;   
+}
+
+.navbar #inputtt:checked ~ .searches{
+   display: block;
+   position: absolute;
+   border-radius: 5px;
+   
+  
+}
+.searches{
+margin-top: 170px;
+background:#0c0c0c ;
+width: 36%;
+left:20px ;
+height: auto;
+ display: none;   
+    padding: 10px 10px 10px 10px;
+    right: 20px;
+}
+.searches a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background: blue;
+    border-radius: 5px;
+}
+.searches div{
+    width: ;
+    height: auto;
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-around;
+}
+#inputt{
+  width: 80%; 
+  height: 40px; 
+  font-size: 15px;
+  outline: none;
+  background:#212121 ;
+  padding-left: 5px;
+  border-radius: 5px;
+  color: white;
+    
+}
+#inputtt{
+    display: none;
+}
+
+
+.content{
+
+    width: 100%;
+    height: 3000px;
+}
+.footer{
+    width: 100%;
+    height: aut o;
+    background: #0c0c0c;
+    padding: 10px 10px 10px 10px ;
+    
+    
+}
+.footer ul li{
+    list-style-type: none;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer .menus h3{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer .Important h3{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    align-items: ;
+    margin-bottom: 30px;
+}
+.footer .end{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+.footer .end h3{
+    color: white;
+    font-size: 20px;
+}
+.footer .end p{
+    color: white;
+    
+}
+.media{
+    width: 100%;
+    height: auto;
+    padding: 5px 10px 5px 10px;
+    bottom: 0;
+  display: flex;
+   
+    justify-content: center;
+}
+.media ul{
+width: 100%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.media ul li{
+    list-style-type: none;
+    
+    
+    height: ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.media ul li:nth-child(1) a:hover{
+    background: #0057ff;
+}
+.media ul li:nth-child(2) a:hover{
+    background: green;
+}
+.media ul li:nth-child(3) a:hover{
+    background: #2b43ff;
+}
+.media ul li:nth-child(4) a:hover{
+    background: #0081ff;
+}
+.media ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: ;
+    padding: ;
+    border-radius: 10px;
+}
+.ok{
+    width: 20%;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    background: #0c0c0c;
+    position: absolute;
+    right: 0;
+    margin-top: 80px;
+    border-radius: 0 0 10px 10px;
+    margin-right: 20px;
+    
+}
+.ok ul{
+    
+}
+.ok ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.ok ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+    
+} 
+#ok{
+    
+}
+.ok{
+
+    top: -10%;
+    transition: 0.5s;
+    z-index: -1;
+    
+}
+#ok:checked ~ .ok{
+    top: 0.01%;
+    
+    
+}
+.ulcon{
+width: 100%;
+    background: #0c0c0c;
+    line-height: 30px;
+    position: absolute;
+    padding: 10px 10px 10px 10px;
+    transition: 0.4s all;
+    margin-top: 60px;
+    display: none;
+    z-index:1;
+    
+}
+
+.ulcon li{
+    list-style-type: none;
+   border-bottom: 1px solid white;
+   
+   
+}
+.ulcon li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+    display: block;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .ulone{
+    display: none;
+   
+    
+}
+.navbar .ultwo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar h3{
+    font-size: 15px;
+}
+.navbar .ultwo li:nth-child(1) a{
+padding: 5px 5px 5px 5px;
+    font-size: 13px;
+}
+.navbar .ultwo li:nth-child(2) a{
+font-size: 13px;
+  padding: 5px 5px 5px 5px;  
+}  
+#caret{
+    display: none;
+} 
+#bars{
+    display: block;
+}
+.navbar .ultwo{
+    column-gap: 8px;
+}
+#bars{
+    font-size: 27px;
+}
+.navbar label i {
+   font-size: 16px; 
+   padding: 8px 8px 8px 8px;
+}
+.searches{
+    width: auto;
+    
+}
+.footer1{
+   margin-left:10% ;
+   display: block;
+   
+   
+}
+.footer .menus{
+    margin-bottom: 20px;
+    
+}
+.footer .Important{
+    margin-bottom: 20px;
+    
+}
+.footer .other1{
+    margin-bottom: 20px;
+    
+}
+
+
+.ok{
+display: none;
+   
+}
+
+.footer ul li{
+    list-style-type: none;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.footer .menus h3{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.footer .Important h3{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.media ul{
+    font-size: 60px;
+}
+.media ul li{
+height: 50px;
+    
+}
+#diger:checked ~ .ulcon{
+    top: 1%;
+}
+.media ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 10px 20px 10px 20px;  
+    
+}
+.ulcon {
+    display: block;
+    top: -100%;
+    
+}
+}
