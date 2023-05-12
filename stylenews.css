@@ -326,6 +326,44 @@ width: 100%;
     display: block;
     
 }
+.divs{ 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    
+    
+}
+.divss{
+    width: 66%;
+    height: 500px;
+    background: #0c0c0c;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.aside{
+    width: 25%;
+    background: #0c0c0c;
+    border-radius: 5px;
+    height: 500px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.aside h3{
+    color: white;
+    font-size: 20px;
+    font-family: normal;
+}
+.aside ul li{
+    list-style-type: none;
+    
+}
+.aside ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
 
 
 
@@ -465,5 +503,15 @@ height: 50px;
     display: block;
     top: -100%;
     
+}
+.aside{
+   width: 90%; 
+   
+}
+.divss{
+    width: 90%;
+}
+.divs{
+    flex-wrap: wrap;
 }
 }
