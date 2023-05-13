@@ -14,11 +14,12 @@ body{
     height: 80px;
     background:#0c0c0c;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
     padding: 10px 10px 10px 10px;
-    position: fixed;
+    position:fixed ;
     z-index: 3;
+   
 }
 .baslik{
     text-decoration: none;
@@ -282,15 +283,17 @@ width: 100%;
     font-size: 20px;
     
     
+    
 } 
 #ok{
-    
+   display: none; 
 }
 .ok{
 
     top: -100%;
     transition: 0.5s;
     z-index: 1;
+    
     
 }
 #ok:checked ~ .ok{
@@ -311,6 +314,9 @@ width: 100%;
     z-index:1;
     
 }
+#diger{
+    display: none;
+}
 
 .ulcon li{
     list-style-type: none;
@@ -329,30 +335,32 @@ width: 100%;
 .divs{ 
     display: flex;
     justify-content: space-around;
-    margin-top: 80px;
-    
+    padding-top: 90px;
+    column-gap: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
     
 }
 .divss{
-    width: 66%;
-    height: 500px;
+    width: 71%;
+    height: auto;
     background: #0c0c0c;
     border-radius: 5px;
     margin-bottom: 20px;
-    
+   
 }
 .aside{
-    width: 25%;
+    width: 100%;
     background: #0c0c0c;
     border-radius: 5px;
-    height: 500px;
-    padding: 10px 10px 10px 10px;
-    
+    height: auto;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 20px;
 }
-.aside h3{
+.aside p{
     color: white;
     font-size: 20px;
-    font-family: normal;
+    
 }
 .aside ul li{
     list-style-type: none;
@@ -362,9 +370,91 @@ width: 100%;
     text-decoration: none;
     display: block;
     color: white;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    
 }
-
-
+.asearch{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background: #0c0c0c;
+    column-gap: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.asearch input{
+    
+}
+.asearch a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background: blue;
+    border-radius: 5px;
+    
+}
+.asearch input{
+  width: 80%; 
+  height: 40px; 
+  font-size: 15px;
+  outline: none;
+  background:#212121 ;
+  padding-left: 5px;
+  border-radius: 5px;
+  color: white;
+    
+}
+.ayri{
+    width: 25%;
+   display: block;
+   
+}
+.alti{
+    width: 100%;
+    height: 500px;
+    background: #0c0c0c;
+    border-radius: 5px;
+}
+.profil{
+    width: 100%;
+    height: auto;
+    background: #0c0c0c;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.profil #ilki{
+    color: white;
+    font-size: 100px;
+    margin-bottom: 5px;
+    
+}
+.profil p{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.profil ul{
+width: 100%;
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+   
+}
+.profil ul li{
+    list-style-type: none;
+}
+.profil ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
 
 
 
@@ -510,8 +600,23 @@ height: 50px;
 }
 .divss{
     width: 90%;
+    height: 300px;
 }
 .divs{
     flex-wrap: wrap;
+    
+}
+.asearch{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.ayri{
+    width: 90%;
+}
+.aside{
+   width: 100%; 
+}
+.profil{
+    width: 100%;
 }
 }

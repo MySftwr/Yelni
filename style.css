@@ -284,7 +284,10 @@ width: 100%;
     
 } 
 #ok{
-    
+   display: none; 
+}
+#diger{
+    display: none;
 }
 .ok{
 
