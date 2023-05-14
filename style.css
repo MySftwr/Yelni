@@ -337,7 +337,7 @@ width: 100%;
     height: ;
     align-items: center;
     background: red;
-   position: sticky;
+   position: fixed;
   
 }
 .not p{

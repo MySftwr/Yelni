@@ -529,7 +529,7 @@ width: 71%;
     height: ;
     align-items: center;
     background: red;
-   position: sticky;
+   position: fixed;
   
 }
 .not p{
