@@ -19,6 +19,7 @@ body{
     padding: 10px 10px 10px 10px;
     position: fixed;
     z-index: 3;
+    
 }
 .baslik{
     text-decoration: none;
@@ -337,7 +338,9 @@ width: 100%;
     height: ;
     align-items: center;
     background: red;
-   position: fixed;
+   position: absolute;
+   margin-top: 80px;
+   
   
 }
 .not p{
