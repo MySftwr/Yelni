@@ -332,6 +332,7 @@ width: 100%;
     display: block;
     
 }
+
 .divs{ 
     display: flex;
     justify-content: space-around;
@@ -342,11 +343,13 @@ width: 100%;
     
 }
 .divss{
-    width: 71%;
-    height: auto;
+    width: 100%;
+    height: ;
     background: #0c0c0c;
     border-radius: 5px;
     margin-bottom: 20px;
+    padding: 10px;
+    display: ;
    
 }
 .aside{
@@ -412,12 +415,7 @@ width: 100%;
    display: block;
    
 }
-.alti{
-    width: 100%;
-    height: 500px;
-    background: #0c0c0c;
-    border-radius: 5px;
-}
+
 .profil{
     width: 100%;
     height: auto;
@@ -443,7 +441,7 @@ width: 100%;
 .profil ul{
 width: 100%;
     display: flex;
-    column-gap: 10px;
+    column-gap: 20px;
     justify-content: center;
    
 }
@@ -455,12 +453,89 @@ width: 100%;
     color: white;
     font-size: 25px;
 }
+#poli{
+    float: right;
+}
 
-
-
-
-
-
+.alti{
+    width: 100%;
+    height: auto;
+    background: #0c0c0c;
+    border-radius: 5px;
+    padding:10px 10px 0px 10px ;
+    margin-bottom: 20px;
+}
+.alti p{
+    color: white;
+    font-size: 20px; 
+    
+}
+.alti ul li{
+    list-style-type: none;
+}
+.alti ul li a{
+text-decoration: none;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    display: block;
+}
+.yazi{
+    width: 100%;
+    background: #0c0c0c;
+    border-radius: 5px;
+    padding: 10px 10px 0px 10px;
+    height: auto;
+    
+}
+.yazi p{
+    color: white;
+    font-size: 20px;
+}
+.yazi ul li{
+    list-style-type: none;
+}
+.yazi ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    font-size: 20px;
+    
+}
+.divss p{
+    color: white;
+    line-height: 30px;
+}
+.slayt{
+    width: 100%;
+    background: #0c0c0c;
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.div1{
+    display: block;
+}
+.div{
+width: 71%;
+    display: flex;
+    justify-content: center;
+}
+.not{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    height: ;
+    align-items: center;
+    background: red;
+   position: sticky;
+  
+}
+.not p{
+    color: white;
+}
+  
 
 
 
@@ -599,11 +674,13 @@ height: 50px;
    
 }
 .divss{
-    width: 90%;
-    height: 300px;
+    width: 100%;
+    height: ;
 }
 .divs{
     flex-wrap: wrap;
+  margin: 0;
+    
     
 }
 .asearch{
@@ -619,4 +696,25 @@ height: 50px;
 .profil{
     width: 100%;
 }
+.content{
+    
+}
+.slayt{
+    width: 100%;
+    
+}
+.div1{
+width: 100%;
+   display: 
+}
+.div{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+    
+}
+
 }
